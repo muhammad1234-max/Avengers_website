@@ -1,0 +1,55 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+#backgrounddiv {
+ position: relative;
+
+}
+#backlay {
+ height: 100vh;
+ width: 100vw;
+ opacity:0.95;
+ z-index:-1;
+}
+
+#overlayimg {
+ position: absolute;
+ top: 5%;
+ left: 3%;
+ bottom:5%;
+ z-index: 1;
+ height: 90vh;
+ width: 85vw;
+ box-shadow: 10px 10px 12px grey; 
+}
+
+#overlayimg:hover {
+ box-shadow: 10px 10px 12px maroon;
+ transform:scale(1.09);
+ transition:transform 0.5s ease;
+}
+
+#heroinfo{
+ background: linear-gradient(to left, rgba(51, 51, 51, 0.7), rgba(221, 24, 24,0.7));
+ height: 80vh;
+ width: 50vw;
+ position: absolute;
+ top: 10%;
+ bottom: 30%;
+ left: 5%;
+ z-index:2;
+ opacity: 0.6;
+ border: 3px solid navy;
+ border-radius:30%;
+}
+
+#heroinfo:hover {
+ box-shadow: 10px 10px 12px rgba(35,68,255,1);
+ transform: scale(1.07);
+ transition: transform 0.5s ease;
+}
+
+#homelink{z-index:3;position:absolute;top:10%;left:95%;transform:scale(4)}

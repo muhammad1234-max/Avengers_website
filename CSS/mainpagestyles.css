@@ -1,0 +1,109 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#mainpage {
+ background-image: url("../media/avengersmainpage\ \(1\).jpg");
+ background-size:cover;
+ background-position:center;
+ background-repeat: no-repeat;
+ background-position-y:3px;
+ height:100vh;
+ width:100vw;
+ z-index:1;
+ top:10%
+}
+
+#navbar {
+ display: inline-block;
+ background:linear-gradient(to left,#c31432 , #240b36);
+ width: 100vw;
+ height: 20vh;
+ opacity:0.8;
+ position: relative;
+}
+
+#blackwidow{font-size: 30px;
+ display:inline-block;
+ position:fixed;
+ left:2%;
+ top:1%;
+}
+
+#thor{font-size: 30px;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ position:fixed;
+ top:1%;
+ left:14%;
+}
+
+
+#ironman {
+ font-size: 30px;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ position:fixed;
+ top:1%;
+ left:54%
+}
+
+
+#captainamerica{font-size: 30px;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ position:fixed;
+ top:1%;
+ left:34%
+}
+
+#hawkeye{font-size: 30px;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ position:fixed;
+ top:1%;
+ left:85%;
+}
+#hulk{font-size: 30px;
+ display: inline-block;
+ justify-content: center;
+ align-items: center;
+ position:fixed;
+ top:1%;
+ left:73%;
+}
+
+.naveffect:hover{transition:transform 0.5s ease ;transform:scale(1.5)}
+
+#maincontent {
+ position: relative;
+}
+#mainlogo {
+ height: 200px;
+ width: 600px;
+ position: fixed;
+ left: 28%;
+ top:60%;
+ border-radius:35%;
+}
+
+#mainpagefooter {
+ width: 100vw;
+ height: 6vh;
+ background: linear-gradient(to left, #333333, #dd1818);
+ position: fixed;
+ top: 94%;
+ opacity: 0.8;
+ font-size:15px;
+ font-family: cursive;
+ display:flex;
+ justify-content:flex;
+ align-items:center;
+}
+
